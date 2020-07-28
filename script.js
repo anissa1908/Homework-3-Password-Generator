@@ -74,6 +74,6 @@ function writePassword() {
 }
 
 // Add event listener to generate button
-generateBtn.addEventListener("click", function()
+generateBtn.addEventListener("click"), function()
  {  generatePassword();
 }
