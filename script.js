@@ -51,7 +51,7 @@ function newFunction() {
           };
 
   var workshopArr = [];
-          if (userChoiceNumber === true) {
+          if (userPasswordLengthChoice === true) {
             number(workshopArr);
           };
 
