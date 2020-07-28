@@ -11,7 +11,7 @@ var finalResultArr = [ ];
 
 // Write password to the #password input
 var userPasswordLengthChoice = prompt("How long do you want your password to be?");
-  while (NaN(length) || length < 8 || length > 128) length = (prompt),"Length must be at least 8 characters and no more than 128."; {
+  while (length < 8 || length > 128) length = (prompt),"Length must be at least 8 characters and no more than 128."; {
     alert
   }
 
