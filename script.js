@@ -12,25 +12,36 @@ var finalResultArr = [ ];
 // Write password to the #password input
 var userPasswordLengthChoice = prompt("How long do you want your password to be?");
   while (Nan(length) || length < 8 || length > 128) length = (prompt)"Length must be at least 8 characters and no more than 128."; {
-    
+    alert
   }
 
-for(var  i = 0; uppercase.length; i++) {
-  newArr.uppercase.push(uppercase[i]); 
+  function uppercase(arr) {
+    for(var i = 0; i < uppercaseArr.length; i++) {
+          arr.push(uppercaseArr[i]);
+      };
+      return arr
+    };
 
-  // console.log("uppercase" + [i]);)
+  function lowercase(arr) {
+      for(var i = 0; i < lowercaseArr.length; i++) {
+            arr.push(lowercaseArr[i]);
+        };
+        return arr
+      };
 
-for(var i = 0; lowercase.length; i++) {
-    newArr.lowercase.push(lowercase[i]);  
-}
+  function numbers(arr) {
+        for(var i = 0; i < numbersArr.length; i++) {
+              arr.push(numbersArr[i]);
+          };
+          return arr
+        };
 
-for(var i = 0; i<10; i++) {
-  numbers.push(numbers[i]);  
-}
-
-for(var i = 0; special.length; i++) {
-  newArr.special.push(special[i]);  
-}
+  function special(arr) {
+          for(var i = 0; i < specialArr.length; i++) {
+                arr.push(specialArr[i]);
+            };
+            return arr
+          };
 
 var workshopArr = [];
 
