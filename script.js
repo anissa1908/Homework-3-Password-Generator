@@ -59,7 +59,7 @@ function newFunction() {
 
   var workshopArr = [];
           if (userPasswordLengthChoice=== false) {
-            number = ("");
+            alert= ("Your password is not long enough!");
           }
 
 
