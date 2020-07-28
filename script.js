@@ -14,6 +14,11 @@ var userPasswordLengthChoice = prompt("Enter a password containing 8 characters.
 
 for( i = 0; uppercase.length; i++) {
   newArr.uppercase.push(uppercase[i]), 
+
+  // console.log("uppercase + [i]);)
+
+for( i = 0; lowercase.length; i++) {
+    newArr.lowercase.push(uppercase[i]), 
   
 }
 function writePassword() {
