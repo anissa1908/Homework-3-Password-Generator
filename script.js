@@ -56,7 +56,7 @@ function newFunction() {
           };
 
   var workshopArr = [];
-          if (userChoiceNumber === false) {
+          if (userPasswordLengthChoice=== false) {
             alert = ("");
           }
 
