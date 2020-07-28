@@ -12,15 +12,23 @@ var finalResultArr = [ ];
 // Write password to the #password input
 var userPasswordLengthChoice = prompt("Enter a password containing 8 characters.");
 
-for( i = 0; uppercase.length; i++) {
-  newArr.uppercase.push(uppercase[i]), 
+for(var  i = 0; uppercase.length; i++) {
+  newArr.uppercase.push(uppercase[i]); 
 
   // console.log("uppercase + [i]);)
 
-for( i = 0; lowercase.length; i++) {
-    newArr.lowercase.push(uppercase[i]), 
-  
+for(var i = 0; lowercase.length; i++) {
+    newArr.lowercase.push(lowercase[i]);  
 }
+
+for(var i = 0; i<10; i++) {
+  numbers.push(numbers[i]);  
+}
+
+for(var i = 0; lowercase.length; i++) {
+  newArr.lowercase.push(lowercase[i]);  
+}
+
 function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
@@ -30,4 +38,6 @@ function writePassword() {
 }
 
 // Add event listener to generate button
-generateBtn.addEventListener("click", writePassword);
+generateBtn.addEventListener("click", function gnerateBtn(uppercase + lowercase + numbers + special); {
+  
+});
