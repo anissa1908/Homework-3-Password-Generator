@@ -12,6 +12,10 @@ var finalResultArr = [ ];
 // Write password to the #password input
 var userPasswordLengthChoice = prompt("Enter a password containing 8 characters.");
 
+for( i = 0; uppercase.length; i++) {
+  newArr.uppercase.push(uppercase[i]), 
+  
+}
 function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
