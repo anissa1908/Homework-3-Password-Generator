@@ -7,6 +7,7 @@ var numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
 var special = ['!', '@', '#', '$', '%', '&', '*'];
 var finalResultArr = newFunction(); 
 
+
 // Write password to the #password input
 var userPasswordLengthChoice = prompt("How long do you want your password to be?");
   while (length < 8 || length > 128) length = (prompt),"Length must be at least 8 characters and no more than 128."; {
@@ -49,7 +50,8 @@ function newFunction() {
             };
             return arr
           };
-
+   
+// Adding conditions
   var workshopArr = [];
           if (userPasswordLengthChoice === true) {
             number(workshopArr);
@@ -57,8 +59,11 @@ function newFunction() {
 
   var workshopArr = [];
           if (userPasswordLengthChoice=== false) {
-            alert = ("");
+            number = ("");
           }
+
+
+
 
 function writePassword() {
   var password = generatePassword();
@@ -68,7 +73,7 @@ function writePassword() {
 
 }
 
-// // Add event listener to generate button
-// generateBtn.addEventListener("click", function()
-//  {  
-// }
+// Add event listener to generate button
+generateBtn.addEventListener("click", function()
+ {  generatePassword();
+}
