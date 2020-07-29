@@ -8,7 +8,7 @@ var uppercase = confirm("Do you want to use uppercase?");
 var lowercase = confirm("Do you want to use lower case?");
 var numbers = confirm("Do you want to use numbers?");
 var special = confirm("Do you want to use special characters?");
-
+var workshopArr = [ ]
 var finalResultArr = newFunction(); {
 
 }; 
@@ -16,8 +16,8 @@ var finalResultArr = newFunction(); {
 
 // Write password to the #password input
 var userPasswordLengthChoice = confirm("How long do you want your password to be?");
-  while (length < 8 || length > 128) length = (prompt),"Length must be at least 8 characters and no more than 128."; {
-    alert
+  while (length < 8 || length > 128 ===true) length = (prompt),"Length must be at least 8 characters and no more than 128."; {
+    
   }
 
 function newFunction() {
@@ -65,7 +65,15 @@ function newFunction() {
 
   // function shuffle(array) {
   //     var currentIndex = array.length, temporaryValue, randomIndex;
-
+  function makeid(length) {
+    var finalResultArr= '';
+    var characters       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!,@,#,$, %,&,*';
+    var charactersLength = characters.length;
+    for ( var i = 0; i < length; i++ ) {
+       result += characters.charAt(Math.floor(Math.random() * charactersLength));
+    }
+    return result;
+ }
 
           
   //   // While there remain elements to shuffle...
