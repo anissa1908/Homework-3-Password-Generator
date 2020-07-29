@@ -9,12 +9,9 @@ var lowercase = confirm("Do you want to use lower case?");
 var numbers = confirm("Do you want to use numbers?");
 var special = confirm("Do you want to use special characters?");
 
-
-
-var finalResultArr = newFunction() {
+var finalResultArr = newFunction(); {
 
 }; 
-
 
 
 // Write password to the #password input
@@ -22,7 +19,7 @@ var userPasswordLengthChoice = confirm("How long do you want your password to be
   while (length < 8 || length > 128) length = (prompt),"Length must be at least 8 characters and no more than 128."; {
     alert
   }
-  
+
 function newFunction() {
   return [];
 }
@@ -68,6 +65,8 @@ function newFunction() {
 
   // function shuffle(array) {
   //     var currentIndex = array.length, temporaryValue, randomIndex;
+
+
           
   //   // While there remain elements to shuffle...
   //    while (0 !== currentIndex) {
