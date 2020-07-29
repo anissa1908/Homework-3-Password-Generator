@@ -5,10 +5,9 @@ var generateBtn = document.querySelector("#generate");
 var characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!,@,#,$, %,&,*';
 
 var workshopArr = [ ]
-var finalResultArr = newFunction(); {
+var finalResultArr = generatePassword(); {
 
 }; 
-
 
 // Write password to the #password input
 var userPasswordLengthChoice = confirm("How long do you want your password to be?");
@@ -17,8 +16,8 @@ var userPasswordLengthChoice = confirm("How long do you want your password to be
   }
 
 // Add event listener to generate button
-generateBtn.addEventListener("click"), writePassword()
-{  generatePassword();
+generateBtn.addEventListener("click"), function() {
+  finalResultArr.innerHTML = " ";
 }
 
 // Prompting system to generate a password
