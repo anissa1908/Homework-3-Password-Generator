@@ -2,16 +2,17 @@
 var generateBtn = document.querySelector("#generate");
 
 // Assigned variables
-var characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!,@,#,$, %,&,*';
-
-var workshopArr = [ ]
+var upper = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+var lower = 'abcdefghijklmnopqrstuvwxyz';
+var numbers = '0123456789';
+var special = '!,@,#,$, %,&,*';
+var workshopArr = [ ];
 var finalResultArr = generatePassword(); {
 
 }; 
 
 // Write password to the #password input
-var userPasswordLengthChoice = confirm("How long do you want your password to be?");
-  while (length < 8 || length > 128 ===true) length = (prompt),"Length must be at least 8 characters and no more than 128."; {
+  function enterpassword(params) {
     
   }
 
@@ -21,20 +22,42 @@ generateBtn.addEventListener("click"), function() {
 }
 
 // Prompting system to generate a password
-  function characters(arr) {
-    for(var i = 0; i < characters.length; i++) {
-          arr.push(characters[i]);
+  function upper(arr) {
+    for(var i = 0; i < upper.length; i++) {
+          arr.push(upper[i]);
       };
       return arr
     };
+
+  function lower(arr) {
+    for(var i = 0; i < lower.length; i++) {
+            arr.push(lower[i]);
+        };
+        return arr
+    };
+
+  function numbers(arr) {
+    for(var i = 0; i < numbers.length; i++) {
+              arr.push(numbers[i]);
+        };
+     return arr
+    };
+
+  function special(arr) {
+    for(var i = 0; i < special.length; i++) {
+                arr.push(special[i]);
+        };
+     return arr
+    };
+
+
+      for(var i = 0; i < finalResultArr.length
    
 // Adding conditions
-  var workshopArr = [];
           if (userPasswordLengthChoice === true) {
             number(workshopArr);
           };
       
-  var workshopArr = [];
           if (userPasswordLengthChoice=== false) {
             alert= ("Your password is not long enough!");
           }
