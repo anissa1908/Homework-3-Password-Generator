@@ -12,8 +12,10 @@ var finalResultArr = generatePassword(); {
 }; 
 
 // Write password to the #password input
-  function enterpassword(params) {
-    
+  function enterpassword( ) {
+    var password = genratepassword;
+    var passwordText = document.querySelector("#password");
+    passwordText.value = password;
   }
 
 // Add event listener to generate button
