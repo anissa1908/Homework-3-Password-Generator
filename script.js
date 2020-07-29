@@ -49,7 +49,7 @@ function generatePassword(){
     alert("You must at least choose 1 character type!");
     return generatePassword()
   }
-  
+
   if(hasUpper){
     chosenCharacters += upper
   }
@@ -88,11 +88,7 @@ return result;
 // }
 
 // function numbers(arr) {
-//   for (var i = 0; i < numbers.length; i++) {
-//     arr.push(numbers[i]);
-//   }
-//   return arr;
-// }
+
 
 // function special(arr) {
 //   for (var i = 0; i < special.length; i++) {
