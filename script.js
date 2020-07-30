@@ -14,7 +14,7 @@ function enterpassword() {
   var passwordText = document.querySelector("#password");
   passwordText.value = password;
 }
-
+debugger;
 //write password function 
 function writePassword(){
   var password = generatePassword();
