@@ -58,7 +58,7 @@ function generatePassword(){
   }
 
   if(hasNumbers) {
-    chosenCharacaters += numbers
+    chosenCharacters += numbers
   }
 
   if(hasSpecial) {
